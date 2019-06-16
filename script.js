@@ -62,8 +62,8 @@ function loadAssets(callback){
     }
     return spriteImage;
   }
-  sprites.background = loadSprite('pool.PNG');
-  sprites.stick = loadSprite('cue.PNG');
+  sprites.background = loadSprite('pool.png');
+  sprites.stick = loadSprite('cue.png');
   sprites.whiteBall = loadSprite('qBall.png');
   sprites.redBall = loadSprite('red.png');
   sprites.blackBall = loadSprite('black.png');
