@@ -559,7 +559,7 @@ Ball.prototype.collidesWith = function(object){
 function createTable(objectArray, fields, fieldTitles) {
     let body = document.getElementsByTagName('body')[0];
     let tbl = document.createElement('table');
-    tbl.setAttribute("style","width: 1500px; height: 200px; text-align:center; font-size: 22px")
+    tbl.setAttribute("style","width: 1605px; height: 225px; text-align:center; font-size: 28px")
 
     tbl.id = "table";
     let thead = document.createElement('thead');
